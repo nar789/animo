@@ -1,0 +1,72 @@
+body{
+	background-color:#394263;
+	position:absolute;
+	width:100%;
+	bottom:0px;
+}
+p{
+	color:#6e7796;
+	margin-bottom:10px;
+}
+#id{
+	bottom:210px;
+}
+#pw{
+	bottom:150px;
+}
+input{
+	outline:none;
+	background-color:#50597a;
+	position:absolute;
+	display:block;
+	border: 0px;
+    border-radius: 4px;
+	padding: 12px 20px;
+    margin: 8px 0;
+	color:#efefef;
+	width:80%;
+	left:10%;
+	height:50px;
+	font-size:30px;
+	-webkit-animation-name: move; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+	animation-name: move;
+	animation-duration: 1s;
+}
+#signin{
+	margin-top:30px;
+	background-color:#c44056;
+	left:10%;
+	bottom:100px;
+}
+#signup{
+	background-color:#10a8ab;
+	left:10%;
+	bottom:30px;
+}
+div{
+	width:80%;
+	height:40px;
+	color:white;
+	border=0;
+	font-size:20px;
+	color:#efefef;
+	line-height:40px;
+	text-align:center;
+	margin: 5px 0;
+	 -webkit-animation-name: move; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+	animation-name: move;
+	animation-duration: 1s;
+	position:absolute;
+}
+
+@-webkit-keyframes move {
+  from {left: -20%;}
+    to {left:10%;}
+}
+
+@keyframes move {
+  from {left: -20%;}
+    to {left:10%;}
+}

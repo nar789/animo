@@ -1,0 +1,138 @@
+body{
+	background-color:#394263;
+	margin:0px;
+	padding:0px;
+	overflow:scroll;
+}
+#month{
+	width:75%;
+	float:left;
+	text-align:center;
+	display:inline-block;
+	color:white;
+}
+
+#header{
+	width:100%;
+	float:left;
+	padding:0px;
+	margin:0px;
+}
+.day{
+	color:white;
+	text-align:center;
+	width:12.75%;
+	border:0px;
+	margin:-2px;
+	padding:0px;
+	line-height:50px;
+	display:inline-block;
+}
+#day{
+	margin-top:50px;
+	padding:0px;
+	height:50px;
+	display:block;
+	width:100%;
+}
+#sat{
+	color:#a35fc6;
+}
+#sun{
+	color:#dc3172;
+	margin-left:5%;
+	padding:0px;
+}
+#left{
+	float:left;
+	width:auto;
+	display:inline-block;
+	margin-left:10%;
+	color:white;
+	float:left;
+}
+#right{
+	margin-right:10%;
+	width:auto;
+	display:inline-block;
+	color:white;
+	float:right;
+}
+table{
+	padding:0px;
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+}
+tr:nth-child(odd){
+	background-color:#305496;
+}
+tr:nth-child(even){
+	background-color:#4472c4;
+}
+td{
+	border-radius:10px;
+	padding:0px;
+	margin:0px;
+	width:14%;
+	height:60px;
+}
+#page{
+	padding-bottom:50px;
+	height:90%;
+	overflow:scroll;
+}
+#write{
+	width:auto;
+	margin:0px;
+	color:white;
+	float:right;
+}
+h1{
+	margin:0px;
+	background-color:#3469af;
+	width:100%;
+	color:#efefef;
+}
+.gallery{
+	margin-top:5px;
+	width:40px;
+	height:40px;
+	/*
+	animation-name: scale;
+    animation-duration: 1s;*/
+	/*box-shadow: 5px 5px 5px black;*/
+	border-radius:10px;
+	display:block;
+}
+.noimg{
+	margin-top:7px;
+	display:block;
+	width:30px;
+	height:40px;
+	opacity:0.5;	
+}
+.g-parent{
+	padding-top:3px;
+	font-size:9px;
+	width:100%;
+	height:60px;
+	color:white;
+	display:inline-block;
+	text-align:center;
+}
+
+
+@keyframes scale {
+    from {
+		-ms-transform: scale(0.5,0.5); /* IE 9 */
+		-webkit-transform: scale(0.5,0.5); /* Safari */
+		transform: scale(0.5,0.5); /* Standard syntax */
+	}
+    to {
+		-ms-transform: scale(1,1); /* IE 9 */
+		-webkit-transform: scale(1,1); /* Safari */
+		transform: scale(1,1); /* Standard syntax */
+	}
+}
+

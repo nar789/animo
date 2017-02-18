@@ -1,0 +1,167 @@
+body{
+	background-color:#394263;
+	margin:0px;
+	padding:0px;
+}
+#delete{
+	width:auto;
+	margin:0px;
+	padding-left:20px;
+	color:white;
+	float:right;
+	display:none;
+}
+#notice-parent{
+	position:absolute;
+	height:auto;
+	text-align:center;
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+#notice{
+	margin-left:-100px;
+	text-align:center;
+	display:none;
+	width:auto;
+	background-color:black;
+	color:white;
+	position:absolute;
+	opacity:0.6;
+}
+#range
+{
+	background-color:#b34475;;
+}
+#t-text{
+	display:inline;
+	color:white;
+}
+#img-plus{
+	opacity:0.2;
+	margin-left:-32px;
+	position:absolute;
+	display:inline-block;
+}
+#img-happy{
+	position:absolute;
+	margin:0px;
+	left:0px;
+	margin-top:-30px;
+}
+#img-sad{
+	position:absolute;
+	margin:0px;
+	right:0px;
+	margin-top:-30px;
+}
+#f-text{
+	position:absolute;
+	height:25.6px;
+	padding-left:0px;
+	width:80%;
+	text-align:right;
+	margin:0px;
+	margin-top:-25.6px;
+	color:white;
+}
+table>tr{
+	margin:0px;
+	padding:0px;
+	height:30px;
+}
+.block{
+	width:20px;
+	padding:0px;
+	margin:0px;
+	text-align:center;
+	height:30px;
+}
+table{
+	margin:0px;
+	padding:0px;
+	table-layout:fixed;
+	width:100%;
+	background-color:#efefef;
+	color:black;
+	border:1px solid black;
+}
+len{
+	float:right;
+}
+h1{
+	margin:0px;
+	background-color:#3469af;
+	width:100%;
+	color:#efefef;
+}
+#photo{
+	text-align:center;
+	display:block;
+}
+#upload{
+	display:none;
+}
+form{
+	margin:0px;
+	padding:0px;
+}
+div{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:50%;
+	border:0px;
+	background-color:#757da0;
+}
+#realimg{
+	margin:0px;
+	padding:0px;
+	height:50%;
+	border:0px;
+	display:none;
+}
+#floater{
+	width:100%;
+	height:40%;
+}
+p{
+	width:100%;
+	text-align:center;
+	color:#b7bbcf;
+}
+
+textarea{
+	display:none;
+	border:0px;
+	padding:4%;
+	outline:none;
+	width:100%;
+	height:50%;
+	background-color:#535c7d;
+	font-size:33px;
+	color:white;
+}
+#bottom-parent{
+	padding:0px;
+	width:100%;
+	height:80px;
+	background-color:gray;
+}
+#bottom-img{
+	background-color:#535c7d;
+}
+.bottom{
+	margin:0px;
+	height:80px;
+	float:left;
+	width:33.33%;
+	line-height:80px;
+	display:block;
+	text-align:center;
+	background-color:#394263;
+	color:white;	
+}
+.bottom:hover{
+	background-color:#535c7d;
+}

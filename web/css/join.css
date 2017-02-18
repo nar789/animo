@@ -1,0 +1,87 @@
+p{
+	margin-top:10%;
+	color:#fff;
+}
+#text{
+	margin:0px;
+	color:#aaa;
+	overflow:scroll;
+}
+body{
+	margin:0;
+	background-color:#394263;
+}
+textarea{
+	margin-top:5%;
+	width:80%;
+	left:10%;
+	position:absolute;
+	height:40%;
+}
+#signup{
+	margin-top:30px;
+	background-color:#4c686a;
+	left:10%;
+	bottom:70px;
+}
+#back{
+	margin-top:10px;
+	background-color:#4c686a;
+	left:10%;
+	bottom:20px;
+}
+.btn:hover{
+	opacity:0.5;
+}
+.btn{
+	width:80%;
+	height:40px;
+	color:white;
+	border=0;
+	font-size:20px;
+	color:#efefef;
+	line-height:40px;
+	text-align:center;
+	margin: 5px 0;
+	 -webkit-animation-name: move; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+	animation-name: move;
+	animation-duration: 1s;
+	position:absolute;
+}
+
+#id{
+	bottom:200px;
+}
+#pw{
+	bottom:140px;
+}
+input{
+	position:absolute;
+	outline:none;
+	background-color:#efefef;
+	display:block;
+	border: 0px;
+    border-radius: 4px;
+	padding: 12px 20px;
+    margin: 8px 0;
+	color:#ccc;
+	width:80%;
+	left:10%;
+	height:50px;
+	font-size:20px;
+	-webkit-animation-name: move; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+	animation-name: move;
+	animation-duration: 1s;
+}
+
+@-webkit-keyframes move {
+  from {left: -20%;}
+    to {left:10%;}
+}
+
+@keyframes move {
+  from {left: -20%;}
+    to {left:10%;}
+}
