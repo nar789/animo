@@ -1,0 +1,123 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+/*
+@font-face {
+    font-family:a;
+    src: url(../font/a.ttf);
+}
+*/
+body {
+	
+    background-color:#efefef;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    /*text-transform:uppercase;*/
+    width:100%;
+    overflow: scroll;
+    position: absolute;
+}
+
+#img-loading{
+	display:inline;
+}
+#floater{
+	width:100%;
+	height:40%;
+}
+#loading{
+	display:none;
+	text-align:center;
+	position:absolute;
+	top:0px;
+	width:100%;
+	background-color:#394263;
+	height:100%;
+	z-index:99;
+	opacity:0.5;
+}
+.back{
+    display:none;
+    text-align:center;
+    position:absolute;
+    top:0px;
+    width:100%;
+    background-color:#394263;
+    height:100%;
+    z-index:99;
+    opacity:0.5;   
+}
+
+iframe{	
+	height:100%;
+	width:100%;
+	overflow:hidden;
+    position: absolute;
+}
+
+h1 {
+    font-size:24px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
+
+#welcome{
+    margin-left: 10px;
+}
+#sidemenu{
+    padding-top: 30px;
+    position: absolute;
+    width:200px;
+    height: 100%;
+    background-color: #272822;
+    top:0px;
+    left:0px;
+    z-index: 99;
+    display: none;
+}
+
+#side-group{
+    list-style: none;
+    padding:0px;
+    margin:0px;
+}
+#welcome{
+    color:white;
+}
+.menu{
+    color:#272822;
+    background-color: #efefef;
+    height:20px;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#hide{
+	background-color:#efefef;
+    margin:0px;
+    padding:0px;
+    width:200px;
+    height:100%;
+}
+#pfimg{
+	margin-left: 10px;
+	border-radius:48px;
+}
+#setting{
+    width:20px;
+    height: 20px;
+    background-color: white;
+	display:inline;
+	float:right;
+	margin-right:10px;
+}

@@ -1,4 +1,3 @@
-<meta http-equiv="Content-type" content="text/html;charset=utf-8"/>
 <?	
 	$tarea=$_POST['tarea'];
 	$feel=$_POST['range'];
@@ -51,8 +50,7 @@
 		do{
 		$time = explode(' ',microtime());
 		$fileName = $time[1].substr($time[0],2,6).'.'.strtoupper($imgext);
-		//$filePath = './img/';
-		$filePath = $_SERVER['DOCUMENT_ROOT'].'/animo/diaryimg/';
+		$filePath = './diaryimg/';
 		}while($result->num_rows > 0); 
 
 		//db에 저장할 정보 가져옴 
@@ -62,20 +60,13 @@
 		$file_type = $_FILES['upload']['type'];
 		//echo "".$filePath.$fileName;
 
-	if (move_uploaded_file($_FILES['upload']['tmp_name'], $filePath.$fileName)) {
+	if (move_uploaded_file($_FILES['upload']['tmp_name'], $filePath.$upload_filename)) {
 			}// 실질적으로 업로드 시키는 구문
 
 	//$imgurl="./img/".$fileName;
-	$imgurl="http://hume.co.kr/animo/diaryimg/".$fileName;
+	$imgurl="http://hume.co.kr/animo/diaryimg/".$upload_filename;
 	//echo "url:".$imgurl;
 	$tarea=urlencode($tarea);
 	$tarea=str_replace("+","%20",$tarea);
-	echo "<script>location.replace('write.php?url=$imgurl&content=$tarea&feel=$feel&no=$no');</script>";
-	/*
-	include ("dblib.php");
-	$connect = mysql_connect($host,$user,$pass) or die("SQL server에 연결할 수 없습니다."); 
-	mysql_select_db($db,$connect);
-	$result=mysql_query("insert into solo values(null,'$name','$comment','$imgurl','$grp','$url');");
-	echo "<script>location.replace('menu.php?code=$grp');</script>";
-	*/
+	echo $imgurl;
 ?>

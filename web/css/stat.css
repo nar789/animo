@@ -1,0 +1,140 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+*{
+	font-family: 'Nanum Myeongjo', serif;
+}
+/*
+@font-face {
+    font-family:a;
+    src: url(../font/a.ttf);
+}*/
+body{
+	font-family: 'Nanum Myeongjo', serif;
+	background-color:#efefef;
+	margin:0px;
+	padding:0px;
+	overflow:scroll;
+}
+#sub-back{
+	background-color: #004e48;
+	width: 100%;
+	height: auto;
+	box-shadow: 0px 1px 10px black;
+}
+.sub-group{	
+	
+	margin:0px;
+	width:303px;
+	padding:0px;
+	height: 50px;
+	background-color: #004e48;
+	list-style-type:none;
+}
+.sub-item{
+	font-size: 12px;
+	border-right: 1px solid #efefef;
+	float:left;
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	color:grey;
+	background-color: white;
+	text-align: center;
+}
+#graph{
+	margin-top: 10px;
+	width: 100%;
+	height: 300px;
+	background-color: #efefef;
+}
+#menudiv{
+	float:left;
+	display: inline-block;
+	width:50px;
+	height: 40px;
+	margin:0px;
+	padding: 0px;
+}
+#menu{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top:8px;
+	opacity: 0.5;
+}
+#title-text{
+	line-height: 40px;
+	float:left;
+	display: inline-block;
+	font-size: 15px;
+}
+#title{
+	margin:0px;
+	background-color:#38a298;
+	width:100%;
+	height: 40px;
+	color:#efefef;
+}
+
+
+
+
+.header-g{
+	
+	margin-top: 20px;
+	height: 30px;
+	display: block;
+	width:100%;
+	padding:0px;
+}
+
+.left{
+	margin:0px;
+	float:left;
+	width:80px;
+	height:30px;
+	display:inline-block;
+	color:grey;
+	text-align: center;	
+}
+.middle{
+	margin:0px;
+	width:200px;
+	text-align: center;
+	text-align:center;
+	display:inline-block;
+	color:#676767;
+}
+.right{
+	margin:0px;
+	width:80px;
+	height:30px;
+	text-align: center;
+	display:inline-block;
+	color:grey;
+	float:right;
+}
+
+#year{
+	color:black;
+	font-weight: bold;
+}
+
+#permonth, #perweek, #wrong{
+	display: none;
+}
+.ditem{
+	margin:5px;
+	border-radius: 10px;
+	padding:5px;
+	width: auto;
+	border:1px solid grey;
+	display: inline-block;
+	color:grey;
+}
+.ditem:hover{
+	background-color: grey;
+	color:white;
+}
+#diary{
+
+}

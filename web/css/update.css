@@ -1,0 +1,68 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+p{
+	margin-top:10%;
+	color:grey;
+}
+#text{
+	margin:0px;
+	color:#aaa;
+	overflow:scroll;
+}
+body{
+	font-family: 'Nanum Myeongjo', serif;
+	margin:0;
+	background-color:#efefef;
+}
+textarea{
+	margin-top:5%;
+	width:80%;
+	height:40%;
+}
+#signup{
+	margin-top:30px;
+	background-color:#004e48;
+}
+#signout{
+	margin-top:10px;
+	background-color:#004e48;	
+}
+#back{
+	margin-top:10px;
+	background-color:#38a298;
+	color:#004e48;	
+}
+.btn:hover{
+	opacity:0.5;
+}
+.btn{
+	width:80%;
+	height:40px;
+	color:white;
+	border:0px;
+	font-size:15px;
+	color:#efefef;
+	line-height:40px;
+	text-align:center;
+	margin: 5px 0;
+}
+
+center{
+	margin-top:50px;
+}
+#pw{
+	
+}
+input{
+	outline:none;
+	background-color:#efefef;
+	display:block;
+	border: 1px solid grey;
+    border-radius: 4px;
+	padding: 12px 20px;
+    margin: 8px 0;
+	color:grey;
+	width:80%;
+	left:10%;
+	height:50px;
+	font-size:15px;
+}

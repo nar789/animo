@@ -4,7 +4,7 @@
 		<link rel="stylesheet" type="text/css" href="css/join.css">
 	</head>
 	<body>
-		<center><p>서비스 이용약관</p></center>
+		<center><p>서비스 이용약관</p>
 		<textarea id='text' readonly>
 		제1조(목적) 이 약관은 OO 회사(전자상거래 사업자)가 운영하는 OO 사이버 몰(이하 “몰”이라 한다)에서 제공하는 인터넷 관련 서비스(이하 “서비스”라 한다)를 이용함에 있어 사이버 몰과 이용자의 권리․의무 및 책임사항을 규정함을 목적으로 합니다.
 
@@ -245,10 +245,14 @@
   ① “몰”과 이용자 간에 발생한 전자상거래 분쟁에 관한 소송은 제소 당시의 이용자의 주소에 의하고, 주소가 없는 경우에는 거소를 관할하는 지방법원의 전속관할로 합니다. 다만, 제소 당시 이용자의 주소 또는 거소가 분명하지 않거나 외국 거주자의 경우에는 민사소송법상의 관할법원에 제기합니다.
 
   ② “몰”과 이용자 간에 제기된 전자상거래 소송에는 한국법을 적용합니다.</textarea>
-				<input type=text id='id' onClick="inputclick(this);" value="아이디를 입력해주세요" >
-				<input type=text id='pw' onClick="inputclick(this);" value="비밀번호를 입력해주세요">
+				<input type=text id='id' onClick="inputclick(this);" placeholder="아이디를 입력해주세요" onkeydown="move('pw')">
+				<input type=text id='pw' onClick="inputclick(this);" placeholder="비밀번호를 입력해주세요"
+        onkeydown="move('email')">
+        <input type=text id='email' onClick="inputclick(this);" placeholder="이메일을 입력해주세요"
+        onkeydown="enter()">
 				<div class='btn' id='signup' onClick="join()">회원가입</div>
 				<div class='btn' id='back' onClick="location.replace('login.php');">뒤로</div>
+				</center>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script type="text/javascript" src="js/join.js"></script>
 	</body>

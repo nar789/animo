@@ -1,15 +1,36 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+/*
+@font-face {
+    font-family:a;
+    src: url(../font/a.ttf);
+}*/
 body{
-	background-color:#394263;
+	font-family: 'Nanum Myeongjo', serif;
+	background-color:#efefef;
 	margin:0px;
 	padding:0px;
-	overflow:scroll;
+	overflow:hidden;
+}
+#menudiv{
+	float:left;
+	display: inline-block;
+	width:50px;
+	height: 40px;
+	margin:0px;
+	padding: 0px;
+}
+#menu{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top:8px;
+	opacity: 0.5;
 }
 #month{
-	width:75%;
+	width:70%;
 	float:left;
 	text-align:center;
 	display:inline-block;
-	color:white;
+	color:#343434;
 }
 
 #header{
@@ -19,7 +40,7 @@ body{
 	margin:0px;
 }
 .day{
-	color:white;
+	color:#343434;
 	text-align:center;
 	width:12.75%;
 	border:0px;
@@ -36,10 +57,10 @@ body{
 	width:100%;
 }
 #sat{
-	color:#a35fc6;
+	color:lightblue;
 }
 #sun{
-	color:#dc3172;
+	color:lightpink;
 	margin-left:5%;
 	padding:0px;
 }
@@ -48,14 +69,14 @@ body{
 	width:auto;
 	display:inline-block;
 	margin-left:10%;
-	color:white;
+	color:#343434;
 	float:left;
 }
 #right{
 	margin-right:10%;
 	width:auto;
 	display:inline-block;
-	color:white;
+	color:#343434;
 	float:right;
 }
 table{
@@ -65,10 +86,10 @@ table{
 	margin-right:5%;
 }
 tr:nth-child(odd){
-	background-color:#305496;
+	background-color:#8cbecc;
 }
 tr:nth-child(even){
-	background-color:#4472c4;
+	background-color:#83a8be;
 }
 td{
 	border-radius:10px;
@@ -78,20 +99,30 @@ td{
 	height:60px;
 }
 #page{
+	width:100%;
 	padding-bottom:50px;
 	height:90%;
 	overflow:scroll;
 }
 #write{
+	margin-top: 8px;
+	padding-left: 20px;
+	padding-right: 10px;
 	width:auto;
-	margin:0px;
-	color:white;
+	height:auto;
 	float:right;
 }
-h1{
+#title-text{
+	line-height: 40px;
+	float:left;
+	display: inline-block;
+	font-size: 15px;
+}
+#title{
 	margin:0px;
-	background-color:#3469af;
+	background-color:#38a298;
 	width:100%;
+	height: 40px;
 	color:#efefef;
 }
 .gallery{
@@ -117,7 +148,6 @@ h1{
 	font-size:9px;
 	width:100%;
 	height:60px;
-	color:white;
 	display:inline-block;
 	text-align:center;
 }
