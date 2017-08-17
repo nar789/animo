@@ -6,7 +6,7 @@
 - <tony92511@hanmail.net><br>
 - <https://github.com/nar789>
 - <http://hume.co.kr>
-```
-Copyright all rights reserved by 2016 Hume corporation.<br>
-Thank you for interesting.
+```javascript
+Copyright all rights reserved by 2016 Hume corporation.
+Thank you for your interesting.
 ```
